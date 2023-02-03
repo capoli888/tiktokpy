@@ -19,7 +19,7 @@ async def main():
             await bot.unfollow(item.author.username)
 
         # 😏 getting user's feed
-        user_feed_items = await bot.user_feed(username="justinbieber", amount=5)
+        user_feed_items = await bot.user_feed(username="iamiam8891", amount=5)
 
         for item in user_feed_items:
             # 🎧 get music title, cover, link, author name..
